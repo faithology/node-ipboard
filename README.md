@@ -28,6 +28,8 @@ client.fetchTopics({
 
 ##Methods Available
 
+For complete IP.Board API info visit: http://www.invisionpower.com/support/guides/_/advanced-and-developers/api-methods/xml-rpc-api-r62
+
 ### postTopic(options, cb)
 Params:
 ```javascript
