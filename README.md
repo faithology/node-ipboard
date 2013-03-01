@@ -72,7 +72,7 @@ options = {
 ### fetchOnlineUsers(cb)
 Params: None
 
-### fetchForumsOptionList(options, cb)
+### fetchForumsOptionList(cb)
 Params: None
 
 ### fetchForums(options, cb)
@@ -96,7 +96,7 @@ options = {
 }
 ```
 
-### fetchStats(options, cb)
+### fetchStats(cb)
 Params: None
 
 ### helloBoard(cb)
