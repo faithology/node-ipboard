@@ -4,7 +4,7 @@ A client library for making XML RPC requests to ipboard with Node.js.
 
 ##Usage
 ```javascript
-var ipboard = require('./lib/ipboard');
+var ipboard = require('ipboard');
 
 var client = new ipboard({
   encoding: 'utf8',
@@ -102,6 +102,8 @@ Params: None
 Params:
 ```javascript
 functionName // the string of the function name you created
+```
+```javascript
 {
   //Whatever options you should be passing
 }
