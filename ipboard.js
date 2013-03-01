@@ -159,7 +159,7 @@ IpBoard.prototype._clean = function(cb) {
 
   return (function(err, results) {
 
-    if(err || !results)
+    if(err || !results || results === true)
       return cb(err, results);
 
     if(this.encoding === 'base64')
