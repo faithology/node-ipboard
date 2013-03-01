@@ -1,0 +1,25 @@
+{
+  "name": "ipboard",
+  "version": "0.0.1",
+  "description": "A client library for making XML-RPC requests to Invision Power Board",
+  "main": "ipboard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/faithology/node-ipboard.git"
+  },
+  "keywords": [
+    "ipboard",
+    "invision",
+    "power",
+    "invision-power",
+    "ip-board"
+  ],
+  "author": "taterbase",
+  "license": "MIT",
+  "dependencies": {
+    "xmlrpc": "~1.1.0"
+  }
+}
