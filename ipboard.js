@@ -111,8 +111,8 @@ IpBoard.prototype.fetchTopics = function(options, cb) {
     forum_ids: options.forum_ids          || null
   , order_field: options.order_field      || null
   , order_by: options.order_by            || null
-  , offset: options.offset                || null
-  , limit: options.limit                  || null
+  , offset: options.offset === 0 ? 0 : options.offset || null
+  , limit: options.limit === 0 ? 0 : options.limit || null
   , view_as_guest: options.view_as_guest === 0 ? 0 : options.view_as_guest || null
   };
 
